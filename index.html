@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+     <!--End of Google fonts  -->
+    <script defer src="./js/app.js"></script>
+    <title>Dólar atual</title>
+</head>
+<body>
+    <main class="main-container">
+        <div class="main-img">
+            <img src="./img/dollar-circle.svg" alt="A dolar icon">
+        </div>
+        <div class="today-dolar">
+            <p>Dólar americano atual <span data-js="actual-dolar"></span></p> 
+        </div>
+        <div class="coin-section">
+            <section class="usd">
+                <h2>Dólar americano</h2>
+                <input type="number" data-js="dolar-value" value="1">
+            </section>
+    
+            <div class="divisor"><span>Equivale a:</span></div>
+    
+            <section class="brl">
+                <h2>Real</h2>
+                <input type="number" data-js="real-value" value="">
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>By <a href="https://nanocarvalho.github.io" target="_blank" rel="noopener">Nano Carvalho</a></p>
+        <span>Api used: <a href="https://docs.awesomeapi.com.br/api-de-moedas" target="_blank" rel="noopener">AwesomeAPI</a></span>
+    </footer>
+</body>
+</html>
