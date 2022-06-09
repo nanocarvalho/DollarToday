@@ -1,4 +1,5 @@
-[Versão online](link)
+[Versão online](https://dollartoday.pages.dev/)
+[API usada](https://docs.awesomeapi.com.br/api-de-moedas)
 
 Problemas que tive fazendo esse mini-app:
 	- O update input tava bugado, mas basicamente era um problema de lógica besta que eu não consegui resolver no 1 dia que tentei, só depois de uma noite de descanso, risos, descansem, faz bem pra cabeça.
